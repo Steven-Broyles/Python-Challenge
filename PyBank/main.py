@@ -2,7 +2,7 @@
 import os
 import csv
 #Get correct file path
-csvpath = os.path.join(" Python-Challenge/PyBank/Resources/budget_data.csv")
+csvpath = os.path.join("/Resources/budgetdata.csv")
 with open(csvpath, newline="") as csvfile:
 
     csvreader = csv.reader(csvfile, delimiter=",")
